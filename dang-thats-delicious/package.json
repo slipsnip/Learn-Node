@@ -16,6 +16,7 @@
   },
   "browserslist": "last 3 versions",
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "axios": "0.15.3",
     "body-parser": "^1.19.0",
     "braces": "^2.3.1",
@@ -53,6 +54,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "autoprefixer": "6.7.7",
+    "babel-loader": "^8.0.5",
     "concurrently": "3.4.0",
     "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "2.1.0",
