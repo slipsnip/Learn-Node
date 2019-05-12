@@ -1,12 +1,7 @@
 const express = require('express');
 const router = express.Router();
-
+const storeController = require('../controllers/storeController.js');
 // Do work here
-router.get('/', (req, res) => {
-  if (req.query.hasOwnProperty('name')) {
-    res.send(`Your name is ${req.query.name}`);
-  }
-  else res.send('Hey! It works!');
-});
+router.get('/', storeController.homePage);
 
 module.exports = router;
